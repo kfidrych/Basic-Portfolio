@@ -22,26 +22,6 @@
     padding:0px 20px 0px 20px;
 }
 
-.aboutMeBox a:hover {
-    color: red;
-}
-
-.aboutMeBox a:visited {
-    color: blue;
-}
-
-.aboutMeBox a:focus {
-    color: green;
-}
-
-.aboutMeBox a:active {
-    color: yellow;
-}
-
-aboutMeBox li a {
-    color: grey;
-}
-
 h2, h3, h4 {
     color:#4aaaa5;
 }
@@ -80,7 +60,7 @@ hr {
 
 .container {
     background-image: url('../images/dust_scratches.png');
-    height: 670px;
+    height: 550px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

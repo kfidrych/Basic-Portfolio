@@ -1,23 +1,45 @@
-#headerBox {
+.header {
     margin-left:105px;
     height:60px; 
     width:200px; 
     background-color:#4aaaa5;
 }
 
-#name {
+.header h2 {
     text-align:center; 
     line-height:60px;
     color:#ffffff;
+    display: inline;
+    padding-left: 12px;
 }
 
-#aboutMeBox {
+.aboutMeBox {
     width:650px; 
     float:left;
     border:1px solid #cccccc;
     background:#ffffff;
     margin: 30px 0px 60px 105px;
     padding:0px 20px 0px 20px;
+}
+
+.aboutMeBox a:hover {
+    color: red;
+}
+
+.aboutMeBox a:visited {
+    color: blue;
+}
+
+.aboutMeBox a:focus {
+    color: green;
+}
+
+.aboutMeBox a:active {
+    color: yellow;
+}
+
+aboutMeBox li a {
+    color: grey;
 }
 
 h2, h3, h4 {
@@ -56,7 +78,7 @@ hr {
     text-align:center;
 }
 
-#container {
+.container {
     background-image: url('../images/dust_scratches.png');
     height: 670px;
     background-position: center;
@@ -84,3 +106,57 @@ hr {
     width: 100%;
     background-color: #666666;
     height: 40px;
+}
+
+ul {
+    position: inline;
+}   
+
+.navmenu {
+    background-color: #ffffff;
+    height: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 850px;
+    top: 30px;
+}
+  
+.navmenu ul {
+    margin-top: 0;
+    padding-left: 2px;
+    display: inline-block;
+}
+
+.navmenu li {
+    font-family: arial;
+    color: grey;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.navmenu li a {
+    color: #888888;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navmenu a:link {
+    color: #888888;
+}
+
+.navmenu a:hover {
+    color: red;
+}
+
+.navmemnu a:visited {
+    color: blue;
+}
+
+.navmenu a:focus {
+    color: green;
+}
+
+.navmenu a:active {
+    color: yellow;
+}
+

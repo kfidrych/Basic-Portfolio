@@ -33,7 +33,7 @@ hr {
     border: #dddddd;
 }
 
-#hrConnect {
+.connectMeBox hr {
     height: 2px;
     background-color:#dddddd;
     margin: 0px 30px 22px 30px;
@@ -49,7 +49,7 @@ hr {
     color:#9e9287;
 }
 
-#connectMeBox {
+.connectMeBox {
     width:270px; 
     float:left; 
     margin:30px 60px 30px 40px;

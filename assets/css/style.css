@@ -1,7 +1,7 @@
 .header {
     margin-left:105px;
     height:60px; 
-    width:200px; 
+    width:230px; 
     background-color:#4aaaa5;
 }
 
@@ -11,6 +11,7 @@
     color:#ffffff;
     display: inline;
     padding-left: 12px;
+    font-family: 'Georgia', serif;
 }
 
 .aboutMeBox {
@@ -24,6 +25,7 @@
 
 h2, h3, h4 {
     color:#4aaaa5;
+    font-family: 'Georgia', serif;
 }
 
 hr {
@@ -46,7 +48,8 @@ hr {
 
 #aboutMeText {
     line-height:35px; 
-    color:#9e9287;
+    color: #777777;
+    font-family: 'Helvetica Neue', sans-serif;
 }
 
 .connectMeBox {
@@ -64,6 +67,7 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-top: 1px solid #cccccc;
 }
 
 #socialLinks {
@@ -97,7 +101,7 @@ ul {
     height: 30px;
     display: inline-block;
     position: absolute;
-    left: 850px;
+    left: 840px;
     top: 30px;
 }
   
@@ -108,7 +112,7 @@ ul {
 }
 
 .navmenu li {
-    font-family: arial;
+    font-family: 'Georgia', serif;
     color: grey;
     display: inline-block;
     padding: 0px 15px;

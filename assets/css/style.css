@@ -1,8 +1,18 @@
 body {
     margin: 0;
+    background-image: url('../images/dust_scratches.png');
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.header #name {
     margin-left:105px;
     height:60px; 
     width:230px; 
@@ -25,18 +35,15 @@ body {
     background:#ffffff;
     margin: 30px 0px 60px 105px;
     padding:0px 20px 0px 20px;
-    overflow-y: scroll;
 }
 
 .portfolioBox {
     width:650px;
-    height:600px;
     float:left;
     border:1px solid #cccccc;
     background:#ffffff;
     margin: 30px 0px 60px 105px;
     padding:0px 20px 0px 20px;
-    overflow-y: scroll;
 }
 
 h2, h3, h4 {
@@ -78,11 +85,7 @@ hr {
 }
 
 .container {
-    background-image: url('../images/dust_scratches.png');
-    height: 700px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    
     border-top: 1px solid #cccccc;
 }
 
@@ -178,27 +181,15 @@ button {
     margin-bottom: 20px;
 }
 
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .box {
-    display: inline;
+    margin-bottom: 20px;
     position: relative;
-}
-
-#box2 {
-    left:45px;
-}
-
-#box3 {
-    top: 15px;
-}
-
-#box4 {
-    top: 15px;
-    left: 45px;
-}
-
-#box5 {
-    top: 30px;
-    bottom: 10px;
 }
 
 .portfolioTitle {
@@ -207,7 +198,7 @@ button {
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: -50px;
+    bottom: 20px;
     left: 0px;
     background-color: #4ba9a4;
     border: #4ba9a4;

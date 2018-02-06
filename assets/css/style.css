@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .header {
     margin-left:105px;
     height:60px; 
@@ -15,12 +19,24 @@
 }
 
 .aboutMeBox {
-    width:650px; 
+    width:650px;
     float:left;
     border:1px solid #cccccc;
     background:#ffffff;
     margin: 30px 0px 60px 105px;
     padding:0px 20px 0px 20px;
+    overflow-y: scroll;
+}
+
+.portfolioBox {
+    width:650px;
+    height:600px;
+    float:left;
+    border:1px solid #cccccc;
+    background:#ffffff;
+    margin: 30px 0px 60px 105px;
+    padding:0px 20px 0px 20px;
+    overflow-y: scroll;
 }
 
 h2, h3, h4 {
@@ -63,7 +79,7 @@ hr {
 
 .container {
     background-image: url('../images/dust_scratches.png');
-    height: 550px;
+    height: 700px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -74,15 +90,6 @@ hr {
     margin-bottom: 30px;
 }
 
-.bottomBreak {
-    position: fixed;
-    bottom: 40px;
-    height: 8px;
-    left: 0;
-    width: 100%;
-    background-color: #4ba9a4;
-}
-
 .footer {
     position: fixed;
     left: 0;
@@ -90,6 +97,12 @@ hr {
     width: 100%;
     background-color: #666666;
     height: 40px;
+    border-top: 8px solid #4ba9a4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 8pt;
 }
 
 ul {
@@ -144,3 +157,69 @@ ul {
     color: yellow;
 }
 
+input {
+    height:30px; 
+    width:645px; 
+    font-size:10pt;
+}
+
+textarea {
+    width:645px; 
+    font-size:10pt;
+    border:1px solid #cccccc;
+}
+
+button {
+    background-color: #4ba9a4;
+    color: #ffffff;
+    border: #4ba9a4;
+    height: 30px;
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.box1 {
+    display: inline;
+    position: relative;
+}
+
+.box2 {
+    display: inline;
+    position: relative;
+    left:45px;
+}
+
+.box3 {
+    display: inline;
+    position: relative;
+    top: 15px;
+}
+
+.box4 {
+    display: inline;
+    position: relative;
+    top: 15px;
+    left: 45px;
+}
+
+.box5 {
+    display: inline;
+    position: relative;
+    top: 30px;
+    bottom: 10px;
+}
+
+.portfolioTitle {
+    font-size: 14pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -50px;
+    left: 0px;
+    background-color: #4ba9a4;
+    border: #4ba9a4;
+    color: #ffffff;
+    height: 50px;
+    width: 300px;
+}

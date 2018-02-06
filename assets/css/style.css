@@ -178,33 +178,25 @@ button {
     margin-bottom: 20px;
 }
 
-.box1 {
+.box {
     display: inline;
     position: relative;
 }
 
-.box2 {
-    display: inline;
-    position: relative;
+#box2 {
     left:45px;
 }
 
-.box3 {
-    display: inline;
-    position: relative;
+#box3 {
     top: 15px;
 }
 
-.box4 {
-    display: inline;
-    position: relative;
+#box4 {
     top: 15px;
     left: 45px;
 }
 
-.box5 {
-    display: inline;
-    position: relative;
+#box5 {
     top: 30px;
     bottom: 10px;
 }
